@@ -38,7 +38,11 @@ jspm_packages
 
 
 
-dist
+#########dist
+### ... not sure about allowing / disallowing the `dist` directory... in some ways, that directory is
+###	the whole point but also, not the point of development at all either... ... ... ...
+
+
 .tmp
 bower_components
 test/bower_components
