@@ -1,0 +1,71 @@
+//
+//
+//
+//
+//
+
+
+/*====================================================================================================================*/
+                                                /*  VARIABLES  */
+/*====================================================================================================================*/
+
+
+
+/*====================================================================================================================*/
+                                                  /*  BASE  */
+/*====================================================================================================================*/
+
+section {
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
+nav {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    ul {
+        li {
+            display: inline-block;
+            margin-right: 2rem;
+        }
+    }
+}
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: modular-scale(-1);
+    padding: 2rem 0;
+}
+
+/*====================================================================================================================*/
+                                                /*  TYPOGRAPHY  */
+/*====================================================================================================================*/
+
+/*  Headings  */
+/*––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+h1 {font-size: modular-scale(5, 1rem, $minor-second);}
+h2 {font-size: modular-scale(3, 1rem, $minor-second);}
+h3 {font-size: modular-scale(2, 1rem, $minor-second);}
+h4 {font-size: modular-scale(1, 1rem, $minor-second);}
+h5 {font-size: modular-scale(0, 1rem, $minor-second);}
+h6 {font-size: modular-scale(-1, 1rem, $minor-second);}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+/*  Responsive Sizing  */
+/*––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@include mq(tablet) {
+    body {
+        font-size: 1.125rem;
+    }
+    h1 {font-size: modular-scale(4, 1.125rem, $major-third);}
+    h2 {font-size: modular-scale(3, 1.125rem, $major-third);}
+    h3 {font-size: modular-scale(2, 1.125rem, $major-third);}
+    h4 {font-size: modular-scale(1, 1.125rem, $major-third);}
+    h5 {font-size: modular-scale(0, 1.125rem, $major-third);}
+    h6 {font-size: modular-scale(-1, 1.125rem, $major-third);}
+
+}
